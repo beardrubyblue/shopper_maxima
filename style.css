@@ -1,0 +1,178 @@
+* {
+	margin: 0;
+	border: none;
+	background: none;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header_wrapper {
+	margin: 0 auto;
+	max-width: 1270px;
+	padding: 44px 0px 65px 0px;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1270px;
+}
+
+button {
+	cursor: pointer;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_input_wrap {
+	display: flex;
+	align-items: center;
+	box-shadow: 0px 32px 68px -17px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	padding: 10px;
+}
+
+input::placeholder {
+	color: #29293040;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.search {
+	padding: 10px;
+	background-color: #10b981;
+	border-radius: 5px;
+}
+
+.header_input {
+	height: 63px;
+	width: 282px;
+	padding: 0px 32px;
+}
+
+.top_header {
+	display: flex;
+	justify-content: space-between;
+	height: 63px;
+}
+.bottom_header {
+	background-color: #10b981;
+	display: flex;
+	justify-content: center;
+	height: 81px;
+}
+.nav {
+	display: flex;
+	gap: 75px;
+}
+.nav_elem {
+	list-style: none;
+}
+
+.nav_elem_btn {
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.trash_button {
+	font-size: 16px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	border-radius: 30px;
+	border: #10b981 1px solid;
+	padding: 0 50px;
+}
+
+.login_or_signup {
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	font-weight: 500;
+	color: white;
+	background-color: #10b981;
+	gap: 15px;
+	border-radius: 30px;
+	padding: 0 50px;
+}
+
+.green_logo {
+	display: flex;
+	align-items: center;
+	color: #10b981;
+	font-size: 40px;
+	font-style: italic;
+}
+
+.black_logo {
+	display: flex;
+	align-items: center;
+	color: black;
+	font-size: 40px;
+	font-style: italic;
+}
+
+.welcome {
+	padding-top: 150px;
+}
+
+.welcome-inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-inner {
+	display: flex;
+	flex-direction: column;
+	gap: 52px;
+	max-width: 600px;
+}
+
+.button-buy {
+	background-color: #10b981;
+	color: white;
+	font-size: 21px;
+	font-weight: 600;
+	box-shadow: 0px 25px 50px 0px #845ec215;
+	max-width: 263px;
+	height: 70px;
+	border-radius: 10px;
+}
+
+.title {
+	font-size: 64px;
+	font-weight: 600;
+	color: #2b2626;
+}
+
+.subtitle {
+	font-size: 21px;
+	font-weight: 500;
+	color: #2b2626;
+}
+
+.left-inner_text {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.right_picture {
+	background-color: #ecfef4;
+	border-radius: 136px;
+	width: 272px;
+	height: 477px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.star2 {
+	display: flex;
+	justify-content: flex-end;
+}
