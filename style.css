@@ -315,3 +315,137 @@ button {
 .airpod-left-inner-price {
 	font-size: 31px;
 }
+
+h2 {
+	font-size: 44px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.sellers-inner {
+	padding: 120px 0;
+}
+
+.select-filter {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	margin-top: 55px;
+}
+
+.select-filter__buttonpicks {
+	background-color: #10b981;
+	color: white;
+}
+
+.select-filter button {
+	border-radius: 100%;
+	padding: 30px 20px;
+	font-size: 26px;
+}
+
+.sellers-cards {
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	max-width: 361px;
+	color: #2b2626;
+}
+
+.card-stats {
+	border-radius: 15px;
+	background-color: #ecfef4;
+	padding: 18px 21px;
+}
+
+.card-stats-text {
+	display: flex;
+	flex-direction: column;
+	padding: 30px 50px;
+	background-color: white;
+	border-radius: 15px;
+	margin-top: 30px;
+}
+
+.card button {
+	padding: 22px 119px;
+	background-color: #10b981;
+	color: white;
+	border-radius: 10px;
+	font-size: 21px;
+	font-weight: 600;
+}
+
+.card-stats-text {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.card-stats-text-reviews {
+	display: flex;
+	gap: 15px;
+	align-items: center;
+}
+
+.card-stats-text-title {
+	font-size: 21px;
+	font-weight: 500;
+}
+
+.card-stats-text-subtitle {
+	font-size: 11px;
+	font-weight: 500;
+	color: #888888;
+}
+
+.card-stats-text-price {
+	font-size: 21px;
+	font-weight: 600;
+}
+
+.card-stats {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card-stats img {
+	max-width: 196px;
+}
+
+.mark {
+	position: absolute;
+	bottom: px;
+	left: 670px;
+	background-color: #10b981;
+	padding: 25px 25px;
+	color: white;
+	border-radius: 100%;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.card-stats-picture {
+	display: flex;
+}
+
+.card-3 {
+	background-color: #e5d5ff !important;
+}
+
+.card-2 {
+	background-color: #c9f2ff;
+}
+
+.next_cards {
+	position: absolute;
+	right: 350px;
+	top: 2350px;
+}
