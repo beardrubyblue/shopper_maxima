@@ -184,7 +184,6 @@ button {
 .star2 {
 	display: flex;
 	position: relative;
-	left: 50px;
 	top: 20px;
 	justify-content: flex-end;
 }
@@ -347,7 +346,8 @@ h2 {
 .sellers-cards {
 	margin-top: 100px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	gap: 50px;
 }
 
 .card {
@@ -411,6 +411,7 @@ h2 {
 }
 
 .card-stats {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -422,15 +423,23 @@ h2 {
 
 .mark {
 	position: absolute;
-	bottom: px;
-	left: 670px;
+	left: 230px;
 	background-color: #10b981;
-	padding: 25px 25px;
 	color: white;
 	border-radius: 100%;
 	font-size: 18px;
 	font-weight: 600;
+	height: 100px;
+	width: 100px;
+	display: flex;
+	align-items: center;
+    justify-content: center;
 }
+
+.mark-3 {
+	background-color: #845EC2;
+}
+
 
 .card-stats-picture {
 	display: flex;
@@ -448,4 +457,63 @@ h2 {
 	position: absolute;
 	right: 350px;
 	top: 2350px;
+}
+
+@media (min-width: 768px) and (max-width: 1140px) {
+	.airpods .airpod-inner {
+		flex-direction: column !important;
+		gap: 40px;
+	}
+
+	.two_picture {
+		bottom: 70px;
+	}
+
+	.airpod-left-inner-title {
+		text-align: center;
+	}
+
+	.airpod-left-inner-price {
+		margin-top: 20px;
+	}
+
+	.airpod-right-inner-buttons {
+		flex-direction: column;
+	}
+	.sellers-cards {
+		flex-wrap: wrap;
+		gap: 50px;
+	}
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+	.airpods .airpod-inner {
+		flex-direction: column !important;
+		gap: 40px;
+	}
+
+	.airpod-left-inner-img {
+		flex-direction: column;
+		gap: 32px;
+	}
+
+	.two_picture {
+		bottom: 0px;
+	}
+
+	.airpod-left-inner-title {
+		text-align: center;
+	}
+
+	.airpod-left-inner-price {
+		margin-top: 20px;
+	}
+
+	.airpod-right-inner-buttons {
+		flex-direction: column;
+	}
+	.sellers-cards {
+		flex-wrap: wrap;
+		gap: 50px;
+	}
 }
