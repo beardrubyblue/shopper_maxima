@@ -410,6 +410,10 @@ h2 {
 	font-weight: 600;
 }
 
+.padd {
+	padding: 15px 15px;
+}
+
 .card-stats {
 	position: relative;
 	display: flex;
@@ -451,6 +455,16 @@ h2 {
 
 .card-2 {
 	background-color: #c9f2ff;
+}
+
+.card-4 {
+	background-color: #E0EFFF;
+}
+.card-5 {
+	background-color: #E8F9FF;
+}
+.card-6 {
+	background-color: #D3FBFB;
 }
 
 .next_cards {
