@@ -280,6 +280,7 @@ button {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
+	align-items: flex-start;
 }
 
 .airpod-right-inner-text h2 {
@@ -498,7 +499,52 @@ h2 {
 		flex-wrap: wrap;
 		gap: 50px;
 	}
+	.footer_menu {
+		flex-direction: column;
+		gap: 40px !important;
+	}
 }
+
+.colors {
+	display: flex;
+	gap: 31px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.black {
+
+	background-color: black;
+	border-radius: 100%;
+	padding: 22px;
+}
+
+.blue {
+	background-color: blue;
+	border-radius: 100%;
+	padding: 22px;
+}
+
+.yellow {
+	background-color: yellow;
+	border-radius: 100%;
+	padding: 22px;
+}
+
+.airdrop-left-inner-price {
+	margin-top: 21px;
+}
+
+.airdrop-left {
+	display: flex;
+	gap: 45px;
+}
+
+.top {
+	position: relative;
+	top: 50px;
+}
+
 
 @media (min-width: 360px) and (max-width: 768px) {
 	.airpods .airpod-inner {
@@ -530,4 +576,123 @@ h2 {
 		flex-wrap: wrap;
 		gap: 50px;
 	}
+	.footer_menu {
+		flex-direction: column;
+		gap: 40px !important;
+	}
+}
+
+.input_container {
+	display: flex;
+	align-items: center;
+}
+
+.input-img {
+	background-color: #10b981;
+	padding: 13px;
+	border-radius: 8px 8px 0px 0px;
+}
+
+.form-input {
+	padding: 15px;
+	border-bottom: 1px solid #cacaca;
+}
+
+.footer_form-title {
+	font-size: 22px;
+	max-width: 190px;
+	margin-bottom: 30px;
+}
+
+
+.footer-title {
+	font-size: 22px;
+}
+
+.footer_inner {
+	display: flex;
+	flex-direction: column;
+	margin-top: 130px;
+}
+
+
+.footer_header {
+	display: flex !important;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 40px;
+	margin-bottom: 50px;
+}
+
+
+.btn-footer {
+	background-color: #10b981;
+	padding: 14px 41px;
+	color: white;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.footer_menu {
+	display: flex;
+	gap: 170px;
+	margin-top: 40px;
+	justify-content: space-between;
+}
+
+.footer_social {
+	margin-top: 70px;
+}
+
+.footer_menu_inner {
+	display: flex;
+	gap: 170px;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.menu-title {
+	color: #10B981;
+	font-size: 17px;
+}
+
+.col a {
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #cacaca;
+	color: #cacaca;
+	overflow: visible;
+	text-align: center;
+	height: 5px;
+  }
+
+.footer_social {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 130px;
+}
+
+.social {
+	display: flex;
+	gap: 40px;
+}
+
+.politic {
+	display: flex;
+	gap: 40px;
+}
+
+.politic a {
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
 }
