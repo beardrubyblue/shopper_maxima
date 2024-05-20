@@ -11,6 +11,7 @@
 </head>
 
 <body>
+
 	<header>
 		<div class='header'>
 			<div class='container'>
@@ -19,27 +20,42 @@
 						<div class='header-top-menu'>
 							<p class='green_logo'>Shop<span class='black_logo'>per</span></p>
 							<div class='header-top-menu-right'>
-								<div class='header__input-wrap'>
+								<label class='header__input-wrap'>
 									<input type="text" placeholder='Search Items' class='header__input'>
 									<img src="./img/search.svg" alt="Поиск" class='search'>
-								</div>
+								</label>
 								<button class='header__trash-button'> <img src="./img/Shopping-bag.svg" alt="Корзина"> 0 Items
 									Added</button>
 								<button class='header__login-or-signup'> <img src="./img/Profile 1.svg" alt="Вход"> Login or Sign
 									Up</button>
 							</div>
+							<button class="mobile_menu-open">
+								<img src="/img/Menu_icon_2_icon-icons.com_71856.png" alt="Меню">
+							</button>
 						</div>
 					</div>
 					<div class='header_inner-bottom'>
 						<nav>
 							<ul class="nav">
-								<li class="nav_elem"><button class="nav_elem_btn">Features </button></li>
-								<li class="nav_elem"><button class="nav_elem_btn">Products</button></li>
-								<li class="nav_elem"><button class="nav_elem_btn">Blog</button></li>
-								<li class="nav_elem"><button class="nav_elem_btn">About</button></li>
+								<li class="nav_elem"><a class="nav_elem_btn" href="#features">Features </a></li>
+								<li class="nav_elem"><a class="nav_elem_btn"  href="#products">Sellers</a></li>
+								<li class="nav_elem"><a class="nav_elem_btn" href="#trending">Trending Earphones</a></li>
+								<li class="nav_elem"><a class="nav_elem_btn" href="#launches">Launches</a></li>
 							</ul>
 						</nav>
 					</div>
+				</div>
+				<div class="mobile_menu close">
+						<div class='header__input-wrap'>
+							<input type="text" placeholder='Search Items' class='header__input'>
+							<img src="./img/search.svg" alt="Поиск" class='search'>
+						</div>
+						<ul class="nav">
+							<li class="nav_elem"><a class="nav_elem_btn" href="#features">Features </a></li>
+							<li class="nav_elem"><a class="nav_elem_btn"  href="#products">Sellers</a></li>
+							<li class="nav_elem"><a class="nav_elem_btn" href="#trending">Trending Earphones</a></li>
+							<li class="nav_elem"><a class="nav_elem_btn" href="#launches">Launches</a></li>
+						</ul>
 				</div>
 			</div>
 		</div>
@@ -92,7 +108,7 @@
 		</div>
 	</section>
 	<section>
-		<div class="airpods">
+		<div class="airpods"  id="features">
 			<div class='container'>
 				<div class="airpod-inner">
 					<div class='airpod-left'>
@@ -123,7 +139,7 @@
 		</div>
 	</section>
 	<section>
-		<div class='sellers'>
+		<div class='sellers'  id="products">
 			<div class='container'>
 				<div class="sellers-inner">
 					<h2>Top Sellers</h2>
@@ -216,7 +232,7 @@
 		</div>
 	</section>
 	<section>
-		<div class='sellers'>
+		<div class='sellers' id="trending">
 			<div class='container'>
 				<div class="sellers-inner">
 					<h2>Trending Earphones</h2>
@@ -339,7 +355,7 @@
 			</div>
 		</div>
 	</section>
-	<footer>
+	<footer  id="launches">
 		<div class="container">
 			<div class="footer_inner">
 				<div class="footer_header">
@@ -392,6 +408,8 @@
 			</div>
 		</div>
 	</footer>
+
+	<script src="/index.js"></script>
 </body>
 
 </html>

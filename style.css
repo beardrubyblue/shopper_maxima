@@ -5,6 +5,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
 }
 
 body {
@@ -695,4 +696,57 @@ hr {
 	font-size: 15px;
 	text-decoration: none;
 	color: black;
+}
+
+.mobile_menu {
+	display: none;
+}
+
+.mobile_menu-open  {
+	display: none;
+}
+
+@media (max-width: 956px) {
+	.header_inner-bottom  {
+		display: none;
+	}
+	.header-top-menu-right  {
+		display: none;
+	}
+
+	.mobile_menu-open  {
+		display: block;
+		width: 50px;
+
+	}
+
+	.mobile_menu-open img  {
+		width: 50px;
+
+	}
+	.mobile_menu  {
+		display: none;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.header__input-wrap {
+		max-width: 300px;
+	}
+	.nav {
+		flex-direction: column;
+		gap: 30px;
+		margin-top: 50px;
+		color: black;
+	}
+	.nav_elem_btn {
+		color: #000;
+	}
+	.open {
+		display: flex;
+	}
+	
+	.close {
+		display: none;
+	}
 }
