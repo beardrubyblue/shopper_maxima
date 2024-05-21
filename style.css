@@ -751,3 +751,44 @@ hr {
 		display: none;
 	}
 }
+
+.welcome-popup  {
+	background-color: rgba(132, 94, 194, 0.15);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.welcome-popup__button {
+	width: fit-content;
+	background-color: #10B981;
+	color: white;
+	padding: 15px 10px;
+	border-radius: 10px;	
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 35px;
+}
+
+.welcome-popup__wrapper {
+	background-color: white;
+	border-radius: 10px;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
+
+.welcome-popup__text {
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 35px;
+}
