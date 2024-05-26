@@ -1,0 +1,33 @@
+{
+  "name": "shopper_maxima",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build:dev": "webpack --env mode=development",
+    "build:prod": "webpack --env mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beardrubyblue/shopper_maxima.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beardrubyblue/shopper_maxima.git"
+  },
+  "homepage": "https://github.com/beardrubyblue/shopper_maxima.git",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^5.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "sass": "^1.72.0",
+    "sass-loader": "^14.1.1",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
